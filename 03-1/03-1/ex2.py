@@ -15,6 +15,6 @@ numbers = [int(i) for i in numbers]
 def RecursiveArraySum(nbrs, k):
     if k == 0:
         return nbrs[0]
-    return RecursiveArraySum(nbrs, k - 1) + nbrs[k]
+    return RecursiveArraySum(nbrs, k - 5) + nbrs[k]
 
 print("Recursive Array Sum:", RecursiveArraySum(numbers, len(numbers) - 1))
